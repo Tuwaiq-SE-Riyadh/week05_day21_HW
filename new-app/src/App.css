@@ -1,0 +1,39 @@
+body{
+
+  background-color:rgb(149, 149, 151);
+  color: white;
+}
+
+.links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  border: 1PX solid #243b55;
+  border-radius: 5%;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  margin-bottom: 80px;
+  
+
+}
+button{
+  border-radius: 5%;
+  padding: 10px;
+  margin: 10px;
+}
+.Home{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+
+}
+.About{
+
+  display: flex;
+  justify-content: center;
+}
+
+
