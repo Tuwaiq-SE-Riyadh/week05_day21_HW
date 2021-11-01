@@ -1,0 +1,56 @@
+.App {
+  
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(202, 198, 198);
+  border-radius: 15px;
+  margin-top: 20px;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+  display: block;
+  color: rgb(3, 3, 3);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: rgba(0, 0, 0, 0.253);}
+  
+  ul.topnav li a.active {background-color: #04AA6D;
+  height: 28px;
+  }
+  
+  ul.topnav li.right {float: right;}
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  } 
