@@ -1,12 +1,22 @@
 import { useState } from "react";
 import { Link, Route, useParams, useHistory } from "react-router-dom";
+
+import { useContext } from "react";
+import { UserContext } from "../App";
+
+
 function Login() {
+    const userContext = useContext(UserContext)
     const [userName,setUserName] = useState("");
-    const [user,setUser] = useState("");
+    // const [user,setUser] = useState("");
     const history = useHistory()
+    const goToHome = () => {
+        // history.push will switch the current path with the passed one
+        history.push("/");
+      };
     const goBack = () => {
       // will go back to the previous path
-      setUser("")
+      userContext.setUser(userName)
       history.goBack();
     };
     const changeuserName = (e) => {
