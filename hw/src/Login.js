@@ -1,22 +1,26 @@
 import './style.css';
 //1 
-import { createContext, useState } from "react";
-import Home from './Home';
-import { Link, Route, useParams, useHistory } from "react-router-dom";
+import {  useState } from "react";
 
+import { Link, Route, useParams, useHistory } from "react-router-dom";
+import Home from './Home';
+import { useContext } from "react";
+import { UserContext } from "./App";
 // 2
-export const UserContext = createContext();
+
 
 function Login() {
+
+  const userContext = useContext(UserContext)
   const history = useHistory();
 
-  const [name, setName] = useState("");
+// 
   const [pass, setPass] = useState(0);
 
 
   function chngename(e){
     let newname=e.target.value
-    setName(newname)
+    userContext.setName(newname)
    
   }
   function chngepas(e){
@@ -43,10 +47,10 @@ function Login() {
                   <input type="checkbox" checked="checked" name="remember"/> Remember me
     </div>
     
-    <UserContext.Provider value={{name: name, setName: setName }}>
+    {/* <UserContext.Provider value={{name: name, setName: setName }}>
     <Home/>
     
-    </UserContext.Provider>
+    </UserContext.Provider> */}
    
    
     </>
