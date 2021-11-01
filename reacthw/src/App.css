@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+.Nav{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.links{
+  background-color: rgb(196, 195, 201);
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 20px;
+
+}
+
+.LoginPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: Center;
+  align-items: center;
+}
+button{
+  margin-top: 10px;
+}
