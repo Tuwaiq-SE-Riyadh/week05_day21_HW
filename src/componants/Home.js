@@ -6,7 +6,6 @@ function Home(){
     
     return(
         <div>
-          <p id="user">{state.username}</p>
         <h1>Home</h1>
         </div>
     );

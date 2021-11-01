@@ -9,7 +9,7 @@ function Navigation() {
       <div className="links">
         <Link to="/"><p>Home</p></Link>
         <Link to="/AboutUs"><p>About Us</p></Link>
-        <Link to="/Login"><p>Log In</p></Link>
+        <Link to="/Login"><p>{state.log}</p></Link>
         <p id="user">{state.username}</p>
         
       </div>

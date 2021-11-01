@@ -6,7 +6,6 @@ function AboutUs(){
 
     return(
         <div>
-          {/* <p id="user">{state.username}</p> */}
         <h1>About Us</h1>  
         </div>
     )

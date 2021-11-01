@@ -6,10 +6,11 @@ export const State = createContext();
 function App() {
 const [st, setSt] = useState(false);
 const [username,setUsername]=useState(" ");
+const [log , setLog]=useState("Log In");
 
   
   return(
-    <State.Provider value={{st , setSt,username,setUsername}}>
+    <State.Provider value={{st , setSt,username,setUsername,log , setLog}}>
     <div>
       
       <Navbar/>
