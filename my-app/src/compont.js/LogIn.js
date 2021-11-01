@@ -7,7 +7,7 @@ function LogIn(){
     const history = useHistory();
     const log=()=>{
         setUser(true)
-        history.push('/Home')
+        history.push('/')
     }
     // const log=()=>{
     //    setUser(true)}

@@ -1,4 +1,7 @@
 import {  useHistory } from "react-router-dom";
+import { useContext } from "react";
+import { UserContext } from "../App";
+
 function Home(){
     const history = useHistory();
     const Click=()=>{

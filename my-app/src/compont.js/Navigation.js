@@ -6,7 +6,7 @@ function Navigation(){
 
     return(
         <div className="Navigation">
-     <Link to="/Home">Home</Link>
+     <Link to="/">Home</Link>
       <Link to="/About">About</Link>
       { user === true ? <Link className ="nav-link active" to="/Login"> Login Successfully</Link>: <Link to="/Login">Login</Link> }
      
