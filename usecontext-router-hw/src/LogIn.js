@@ -1,6 +1,6 @@
 import { Link, Route, useParams, useHistory } from "react-router-dom";
 
-function AboutUs(){
+function LogIn(){
 
     const history = useHistory();
 
@@ -20,4 +20,4 @@ function AboutUs(){
 
 }
 
-export default AboutUs;
+export default LogIn;
