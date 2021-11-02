@@ -4,19 +4,19 @@ import Home from './components/Home';
 import Login from './components/Login';
 import Aboutus from './components/Aboutus';
  import Navbar from './components/Navbar';
-import './App.css'
+
 import { createContext, useState } from "react";
 
 
 export const UserContext = createContext();
 
 function App() {
-  const [loguser, setLoguser] = useState("");
+  const [loguser, setLoguser] = useState("successful");
 
   return (
 
     <Router>
-      < UserContext.Provider value={{ user: loguser, setUser: setLoguser}}>
+      < UserContext.Provider value={{loguser,setLoguser}}>
         <div className="App">
           
 
