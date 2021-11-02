@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.navbar{
+  justify-content: center;
+  display: flex;
+  gap: 3rem;
+}
+
+.login{
+  display:grid;
+  justify-content: center;
+  margin-top: 5px;
+  
+  
+}
+button,input{
+justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 5px;
+}
