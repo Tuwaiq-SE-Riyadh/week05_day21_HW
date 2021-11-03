@@ -1,9 +1,0 @@
-#parent {
-    /* changes the display to grid */
-    display: grid;
-    /* set the amount of columns and the side of them */
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* set the gap size for columns and rows */
-    column-gap: 10px;
-    row-gap: 10px;
-}
